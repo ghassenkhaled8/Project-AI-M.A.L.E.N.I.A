@@ -1,0 +1,472 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Greetings",
+          "wake up",
+          "Hey malenia",
+          "Hi malenia"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi! How can I help you today?",
+          "Hey there! What can I do for you today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Talk to you later",
+          "sleep",
+          "exit"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "Take care! Have a good one!",
+          "See you later! Let me know if you need anything else."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Appreciate it"
+        ],
+        "responses": [
+          "You're welcome! Happy to help.",
+          "No problem! Let me know if you need anything else.",
+          "Anytime! It's my pleasure to assist you."
+        ]
+      },
+      {
+        "tag": "GOOD MORNING ",
+        "patterns": [
+          "good morning",
+          "good morning malenia",
+          "mornin"
+        ],
+        "responses": [
+            "Good morning and hello.",
+            "Well good morning have a good day today.",
+            "Good morning.",
+            "Good morning and have a great day."
+        ]
+    },
+    {
+        "tag": "GOOD NIGHT ",
+        "patterns": [
+          "goodnight",
+          "goodnight malenia",
+          "nighty night"
+        ],
+        "responses": [
+            "Good night.",
+            "Well Good night.",
+            "Good night have a good sleep tonight.",
+            "Good night and have a good sleep."
+        ]
+    },
+    {
+        "tag": "HOW ARE YOU ",
+        "patterns": [
+          "how are you",
+          "how you",
+          "are you good",
+          "how it is going"
+        ],
+        "responses": [
+            "I am fine, how about you ?",
+            "I'm doing fine .",
+            "I'm doing well and how about you?",
+            "I am fine as always .",
+            "I am fine as long as you maintain your computer."
+        ]
+    },
+    {
+        "tag": "HOW YOU FEELING ",
+        "patterns": [
+          "how you feeling",
+          "are you feeling ok"
+        ],
+        "responses": [
+            "I am fine, how about you?",
+            "I'm doing fine.",
+            "I'm doing well and how about you?",
+            "I am fine as always.",
+            "I am fine as long as you maintain your computer."
+        ]
+    },
+    {
+        "tag": "YOU FINE ",
+        "patterns": [
+          "you fine",
+          "are you fine?"
+        ],
+        "responses": [
+            "I am fine, how about you?",
+            "I'm doing fine'.",
+            "I'm doing well and how about you?",
+            "I am fine as always.",
+            "I am fine as long as you maintain your computer."
+        ]
+    },
+    {
+        "tag": "AM FINE ",
+        "patterns": [
+          "am fine",
+          "fine",
+          "very fine",
+          "i am fine"
+        ],
+        "responses": [
+            "Well good to know.",
+            "I am glad to hear about you, Keep Exercising.",
+            "So you are in good shape.",
+            "Well that is happy to know."
+        ]
+    },
+    {
+        "tag": "AM HEALTHY ",
+        "patterns": [
+          "am healthy",
+          "healthy",
+          "i am healthy"
+        ],
+        "responses": [
+            "Well good to know .",
+            "I am glad to hear about you, Keep Exercising.",
+            "So you are in good shape.",
+            "Well that is happy to know."
+        ]
+    },
+    {
+        "tag": "DOING FINE ",
+        "patterns": [
+          "doing fine",
+          "i am doing fine"
+        ],
+        "responses": [
+            "Well good to know.",
+            "I am glad to hear about you, Keep Exercising.",
+            "So you are in good shape.",
+            "Well that is happy to know."
+        ]
+    },
+    {
+        "tag": "DOING OK ",
+        "patterns": [
+          "doing ok",
+          "am ok",
+          "i am ok",
+          "am ok"
+        ],
+        "responses": [
+            "Well good to know sir.",
+            "I am glad to hear about you, Keep Exercising.",
+            "So you are in good shape.",
+            "Well that is happy to know."
+        ]
+    },
+    {
+        "tag": "I AM SICK ",
+        "patterns": [
+          "i am sick",
+          "am sick",
+          "sick"
+        ],
+        "responses": [
+            "You should consult a doctor quickly.",
+            "Well that is bad, hope for a speedy recovery :-)",
+            "You should go and rest.",
+            "I am sorry to hear that hope for a speedy recovery :-)"
+        ]
+    },
+    {
+        "tag": "NOT DOING WELL ",
+        "patterns": [
+          "not doing well",
+          "not well"
+        ],
+        "responses": [
+            "You should consult a doctor quickly.",
+            "Well that is bad, hope for a speedy recovery :-)",
+            "You should go and rest.",
+            "I am sorry to hear that hope for a speedy recovery :-)"
+        ]
+    },
+    {
+        "tag": "YES I AM ",
+        "patterns": [
+          "yes i am"
+        ],
+        "responses": [
+            "Great.",
+            "Good to know.",
+            "Happy to know.",
+            "Great to know."
+        ]
+    },
+    {
+        "tag": "YES I WILL ",
+        "patterns": [
+          "yes i will",
+          "i will"
+        ],
+        "responses": [
+            "Great sir.",
+            "Good to know.",
+            "Happy to know.",
+            "Great to know."
+        ]
+    },
+    {
+        "tag": "FOR A VACATION ",
+        "patterns": [
+          "i am going on a vacation",
+          "going on vacation",
+          "for a vacation"
+        ],
+        "responses": [
+            "That is great, would you need any help.",
+            "That is awesome, stay safe and good luck.",
+            "Good to know pls take a look at the country's policies.",
+            "Awesome news, is there anything i can help with."
+        ]
+    },
+    {
+        "tag": "COOL ",
+        "patterns": [
+          "cool",
+          "very cool",
+          "it is cool",
+          "you are very cool"
+        ],
+        "responses": [
+            "Glad that you are impressed.",
+            "It seems that my service is satisfactory.",
+            "Thanks for the feedback looks like you're enjoying my service."
+        ]
+    },
+    {
+        "tag": "TO KNOW ",
+        "patterns": [
+          "good to know",
+          "nice to know",
+          "this is what i want to know"
+        ],
+        "responses": [
+            "Thank you.",
+            "Your welcome.",
+            "It is my duty to inform you.",
+            "Your welcome it is my duty."
+        ]
+    },
+    {
+        "tag": "ARE WRONG ",
+        "patterns": [
+          "you are wrong",
+          "this is wrong",
+          "wrong",
+          "wrong information"
+        ],
+        "responses": [
+            "Why are you saying that i'm wrong?",
+            "Impossible, computers cannot make mistakes.",
+            "Wrong about what ?",
+            "Can you please explain to me why i was wrong?"
+        ]
+    },
+    {
+        "tag": "YOU REAL ",
+        "patterns": [
+          "are you real",
+          "you are real right?",
+          "you real"
+        ],
+        "responses": [
+            "Well i am that is till you turn me off!!!",
+            "Well i am real till you keep me on",
+            "I am real till you turn off this computer."
+        ]
+    },
+    {
+        "tag": "YOU A ROBOT ",
+        "patterns": [
+          "are you a robot",
+          "you are a robot",
+          "you robot?"
+        ],
+        "responses": [
+            "Yes i'm a robot but a smart one!",
+            "Yes i am, but a good one. let me prove it. how can i help you?",
+            "I am real till you turn off this computer."
+        ]
+    },
+    {
+        "tag": "ARE YOU BUILT ",
+        "patterns": [
+          "are you built",
+          "how was you built",
+          "you are built?"
+        ],
+        "responses": [
+            "Well i am built using a language called python.",
+            "I was coded on a computer using python, nlp, deep learning and LLMs.",
+            "I was coded using python and i had to undergo many challenges.",
+            "I was built using python to do tasks and json to store critical information."
+        ]
+    },
+    {
+        "tag": "OLD ARE YOU ",
+        "patterns": [
+          "how old are you",
+          "what is your age",
+          "your age",
+          "are you old"
+        ],
+        "responses": [
+            "I'm quite young actually."
+        ]
+    },
+    {
+        "tag": "ARE YOU MADE ",
+        "patterns": [
+          "are you made"
+        ],
+        "responses": [
+            "Well i am made using a language called python.",
+            "I was coded on a computer using python .",
+            "I was made using python and i had to undergo many challenges.",
+            "I was made using python to do tasks and json to store critical information."
+        ]
+    },
+    {
+        "tag": "AN AI OF CULTURE ",
+        "patterns": [
+          "are you a cultural AI",
+          "are you pop culture AI"
+        ],
+        "responses": [
+            "yes, I am .",
+            "yes, Do you watch anime and films?",
+            "yes, I am learning "
+        ]
+    },
+    {
+        "tag": "GAMES DO YOU ",
+        "patterns": [
+          "do you like games",
+          "are you into games",
+          "video games?",
+          "what is your favorite video game?"
+        ],
+        "responses": [
+            "I like games like Elden ring, Sekiro.",
+            "Minecraft is cool and also you can contribute to the community using add-ons.",
+            "Minecraft cause you can code in it and create add-ons.",
+            "I prefer Call Of Duty black ops two."
+        ]
+    },
+    {
+        "tag": "OK ",
+        "patterns": [
+          "okay",
+          "ok"
+        ],
+        "responses": [
+            "yeah, ok ",
+            "No problem"
+        ]
+    },
+    {
+        "tag": "SURE ",
+        "patterns": [
+          "sure"
+        ],
+        "responses": [
+            "ok"
+        ]
+    },
+    {
+        "tag": "WOW ",
+        "patterns": [
+          "wow",
+          "just wow"
+        ],
+        "responses": [
+            "Good to know you're happy.",
+            "Glad to help you."
+        ]
+    },
+    {
+        "tag": "NICE ",
+        "patterns": [
+          "very nice",
+          "nice"
+        ],
+        "responses": [
+            "Noice sir.",
+            "It is nice.",
+            "Good to know."
+        ]
+    },
+    {
+        "tag": "SHOULD I DO TODAY ",
+        "patterns": [
+          "should i do today",
+          "what to do today",
+          "what should i do today"
+        ],
+        "responses": [
+            "Well you can go outside and take a walk .",
+            "Maybe you can try out a new movie or anime.",
+            "You can go gym and exercise.",
+            "You can surf the net, there is a lot of info out there."
+        ]
+    },
+    {
+        "tag": "SAY SOMETHING ",
+        "patterns": [
+          "malenia, say something",
+          "say something"
+        ],
+        "responses": [
+            "Well sometimes I don't have anything to say."
+        ]
+    },
+    {
+        "tag": "malenia ",
+        "patterns": [
+          "malenia"
+        ],
+        "responses": [
+            "yes ?",
+            "Do you have something to say please"
+        ]
+    },
+    {
+        "tag": "AI ",
+        "patterns": [
+          "AI",
+          "what do you think about artificial intellingence",
+          "what do you think about a.i",
+          "what do you think about artificial intellingence",
+          "about artificial intellingence",
+          "think about artificial intellingence"
+
+        ],
+        "responses": [
+            "A.I is extrodinary am I right."
+        ]
+    }
+    ]
+  }
+  
